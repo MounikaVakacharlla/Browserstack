@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-05-28T13:48:30.330Z",
+    "end": "2026-05-28T13:48:40.987Z",
+    "duration": 10657,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ec5fd7fe-5592-4aea-a56b-768f31c98ce2",
+      "title": "",
+      "fullFile": "D:\\OneDrive\\Documents\\Browser\\Browserstack\\tests\\loginTest.js",
+      "file": "\\tests\\loginTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9feb5b86-e990-4b62-9ceb-4a194a9a4227",
+          "title": "Google Test",
+          "fullFile": "D:\\OneDrive\\Documents\\Browser\\Browserstack\\tests\\loginTest.js",
+          "file": "\\tests\\loginTest.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook in \"Google Test\"",
+              "fullTitle": "Google Test \"before all\" hook in \"Google Test\"",
+              "timedOut": false,
+              "duration": 7193,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "driver = await new Builder().forBrowser(\"chrome\").build();",
+              "err": {},
+              "uuid": "c35be614-f1bf-40f2-ab39-fe6c13295f9a",
+              "parentUUID": "9feb5b86-e990-4b62-9ceb-4a194a9a4227",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook in \"Google Test\"",
+              "fullTitle": "Google Test \"after all\" hook in \"Google Test\"",
+              "timedOut": false,
+              "duration": 984,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "if (driver) {\n  await driver.quit();\n}",
+              "err": {},
+              "uuid": "83037a57-998a-4631-beb9-634e08022be7",
+              "parentUUID": "9feb5b86-e990-4b62-9ceb-4a194a9a4227",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Open Google and verify title",
+              "fullTitle": "Google Test Open Google and verify title",
+              "timedOut": false,
+              "duration": 2462,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await driver.get(\"https://www.google.com\");\nconst title = await driver.getTitle();\nassert.strictEqual(title.includes(\"Google\"), true);",
+              "err": {},
+              "uuid": "0dbd7808-dc3c-44f2-97de-3e35b5138579",
+              "parentUUID": "9feb5b86-e990-4b62-9ceb-4a194a9a4227",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0dbd7808-dc3c-44f2-97de-3e35b5138579"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2462,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 30000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "11.7.6"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "reports",
+        "reportFilename": "report",
+        "html": "true",
+        "json": "true"
+      },
+      "version": "6.3.2"
+    }
+  }
+}

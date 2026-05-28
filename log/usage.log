@@ -41,3 +41,66 @@
 
 2026-05-28 18:38:25 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
 2026-05-28 18:38:25 - [32minfo[39m: key-metrics.json file not found, skipping processing for event for cli.
+2026-05-28 19:06:51 - [32minfo[39m: Reading configs from D:\OneDrive\Documents\Browser\Browserstack\browserstack.yml
+2026-05-28 19:06:51 - [32minfo[39m: Log Directory has been set to D:\OneDrive\Documents\Browser\Browserstack\log
+2026-05-28 19:06:52 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe D:\OneDrive\Documents\Browser\Browserstack\node_modules\browserstack-node-sdk\src\bin\runner.js mocha tests/loginTest.js --reporter mochawesome --reporter-options reportDir=reports,reportFilename=report
+2026-05-28 19:06:52 - [32minfo[39m: SDK run started with id: 09fcabcc-d727-41cf-9a6a-410e07d9aa1a
+2026-05-28 19:06:52 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-05-28 19:06:53 - [31merror[39m: Access to BrowserStack denied due to incorrect credentials.
+2026-05-28 19:06:53 - [31merror[39m: {
+  success: false,
+  errors: [
+    {
+      message: 'Access to BrowserStack denied due to incorrect credentials.',
+      key: 'ERROR_INVALID_CREDENTIALS'
+    }
+  ],
+  error_trace_id: 'b21378e2-7b78-4089-9179-9a5656a30049'
+}
+2026-05-28 19:06:54 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-05-28 19:06:54 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-05-28 19:06:54 - [32minfo[39m: key-metrics.json file not found, skipping processing for event for cli.
+2026-05-28 19:09:00 - [32minfo[39m: Reading configs from D:\OneDrive\Documents\Browser\Browserstack\browserstack.yml
+2026-05-28 19:09:00 - [32minfo[39m: Log Directory has been set to D:\OneDrive\Documents\Browser\Browserstack\log
+2026-05-28 19:09:01 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe D:\OneDrive\Documents\Browser\Browserstack\node_modules\browserstack-node-sdk\src\bin\runner.js mocha tests/loginTest.js --reporter mochawesome --reporter-options reportDir=reports,reportFilename=report
+2026-05-28 19:09:01 - [32minfo[39m: SDK run started with id: 5f802255-907d-4724-95fe-9a80e98b8520
+2026-05-28 19:09:01 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-05-28 19:09:02 - [31merror[39m: ACCESSIBILITY Build creation failed
+2026-05-28 19:09:02 - [32minfo[39m: Testhub started with id: ydc9givpwvbqp7h7m0uv87daldi7xah1ppxu4urm
+2026-05-28 19:09:02 - [32minfo[39m: Running your mocha tests across 6 platforms
+2026-05-28 19:09:02 - [32minfo[39m: Now, showing logs from mocha
+2026-05-28 19:09:02 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-05-28 19:09:09 - [32minfo[39m: Configuring to run tests on BrowserStack
+2026-05-28 19:09:09 - [32minfo[39m: Configuring to run tests on BrowserStack
+2026-05-28 19:09:09 - [32minfo[39m: Configuring to run tests on BrowserStack
+2026-05-28 19:09:10 - [32minfo[39m: Configuring to run tests on BrowserStack
+2026-05-28 19:09:10 - [32minfo[39m: Configuring to run tests on BrowserStack
+2026-05-28 19:09:10 - [32minfo[39m: Configuring to run tests on BrowserStack
+2026-05-28 19:09:46 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/3eb377ba12dee6378fb3885b6ff6c22fefaa50e0
+2026-05-28 19:09:47 - [32minfo[39m: SDK run ended for id: 5f802255-907d-4724-95fe-9a80e98b8520, testhub id: ydc9givpwvbqp7h7m0uv87daldi7xah1ppxu4urm
+2026-05-28 19:09:49 - [32minfo[39m: Visit https://automation.browserstack.com/builds/ydc9givpwvbqp7h7m0uv87daldi7xah1ppxu4urm to view build report, insights, and many more debugging information all at one place!
+
+2026-05-28 19:09:49 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-05-28 19:09:49 - [32minfo[39m: key-metrics.json file not found, skipping processing for event for cli.
+2026-05-28 19:16:42 - [32minfo[39m: Reading configs from D:\OneDrive\Documents\Browser\Browserstack\browserstack.yml
+2026-05-28 19:16:42 - [32minfo[39m: Log Directory has been set to D:\OneDrive\Documents\Browser\Browserstack\log
+2026-05-28 19:16:43 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe D:\OneDrive\Documents\Browser\Browserstack\node_modules\browserstack-node-sdk\src\bin\runner.js mocha tests/loginTest.js --reporter mochawesome --reporter-options reportDir=reports,reportFilename=report,html=true,json=true
+2026-05-28 19:16:43 - [32minfo[39m: SDK run started with id: b7f11a5c-5628-4c56-a31f-0e7dd2cb4687
+2026-05-28 19:16:43 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-05-28 19:16:44 - [31merror[39m: ACCESSIBILITY Build creation failed
+2026-05-28 19:16:44 - [32minfo[39m: Testhub started with id: g2krqzk1yt5q8kbefscp4vljl8dayttes84tc6mj
+2026-05-28 19:16:44 - [32minfo[39m: Running your mocha tests across 6 platforms
+2026-05-28 19:16:44 - [32minfo[39m: Now, showing logs from mocha
+2026-05-28 19:16:44 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-05-28 19:16:52 - [32minfo[39m: Configuring to run tests on BrowserStack
+2026-05-28 19:16:52 - [32minfo[39m: Configuring to run tests on BrowserStack
+2026-05-28 19:16:52 - [32minfo[39m: Configuring to run tests on BrowserStack
+2026-05-28 19:16:53 - [32minfo[39m: Configuring to run tests on BrowserStack
+2026-05-28 19:16:53 - [32minfo[39m: Configuring to run tests on BrowserStack
+2026-05-28 19:16:53 - [32minfo[39m: Configuring to run tests on BrowserStack
+2026-05-28 19:17:25 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/9d8a620a41627e5001ce9534b31d04c354568c32
+2026-05-28 19:17:27 - [32minfo[39m: SDK run ended for id: b7f11a5c-5628-4c56-a31f-0e7dd2cb4687, testhub id: g2krqzk1yt5q8kbefscp4vljl8dayttes84tc6mj
+2026-05-28 19:17:28 - [32minfo[39m: Visit https://automation.browserstack.com/builds/g2krqzk1yt5q8kbefscp4vljl8dayttes84tc6mj to view build report, insights, and many more debugging information all at one place!
+
+2026-05-28 19:17:29 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-05-28 19:17:29 - [32minfo[39m: key-metrics.json file not found, skipping processing for event for cli.

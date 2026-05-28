@@ -6,8 +6,8 @@
   "directories": {
     "test": "tests"
   },
-"scripts": {
-  "test": "browserstack-node-sdk mocha tests/loginTest.js --reporter mochawesome --reporter-options reportDir=reports"
+ "scripts": {
+  "test": "browserstack-node-sdk mocha tests/loginTest.js --reporter mochawesome --reporter-options reportDir=reports,reportFilename=report,html=true,json=true"
 },
   "repository": {
     "type": "git",
@@ -22,11 +22,12 @@
   },
   "homepage": "https://github.com/MounikaVakacharlla/Browserstack#readme",
   "dependencies": {
-    "mocha": "^11.7.6",
-    "mochawesome": "^7.1.4",
     "selenium-webdriver": "^4.44.0"
   },
   "devDependencies": {
-    "browserstack-node-sdk": "^1.55.3"
+    "browserstack-node-sdk": "^1.55.3",
+    "mocha": "^11.7.6",
+    "mochawesome": "^7.1.4",
+    "mochawesome-report-generator": "^6.3.2"
   }
 }
