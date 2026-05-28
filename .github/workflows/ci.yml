@@ -1,0 +1,45 @@
+name: Cloud Testing Pipeline
+
+on:
+  push:
+  pull_request:
+
+jobs:
+
+  cloud-testing:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run BrowserStack Tests
+        env:
+          BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
+          BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
+        run: npm test
+
+      - name: Upload Test Reports
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: browserstack-reports
+          path: reports/
+          retention-days: 7
+
+  deployment:
+    needs: cloud-testing
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deployment Simulation
+        run: echo "Deployment Successful"

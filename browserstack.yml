@@ -1,0 +1,44 @@
+userName: ${BROWSERSTACK_USERNAME}
+accessKey: ${BROWSERSTACK_ACCESS_KEY}
+
+framework: mocha
+
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+
+  - os: Windows
+    osVersion: 11
+    browserName: Firefox
+    browserVersion: latest
+
+  - os: OS X
+    osVersion: Ventura
+    browserName: Safari
+    browserVersion: latest
+
+  - os: Windows
+    osVersion: 11
+    browserName: Edge
+    browserVersion: latest
+
+  - deviceName: Samsung Galaxy S22
+    osVersion: 12.0
+    browserName: chrome
+
+  - deviceName: iPhone 13
+    osVersion: 15
+    browserName: safari
+
+parallelsPerPlatform: 1
+
+buildName: github-actions-build
+projectName: cloud-testing-project
+
+testObservability: true
+
+debug: true
+networkLogs: true
+consoleLogs: info

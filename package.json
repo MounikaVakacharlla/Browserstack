@@ -1,0 +1,32 @@
+{
+  "name": "browserstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+"scripts": {
+  "test": "browserstack-node-sdk mocha tests/loginTest.js --reporter mochawesome --reporter-options reportDir=reports"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MounikaVakacharlla/Browserstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MounikaVakacharlla/Browserstack/issues"
+  },
+  "homepage": "https://github.com/MounikaVakacharlla/Browserstack#readme",
+  "dependencies": {
+    "mocha": "^11.7.6",
+    "mochawesome": "^7.1.4",
+    "selenium-webdriver": "^4.44.0"
+  },
+  "devDependencies": {
+    "browserstack-node-sdk": "^1.55.3"
+  }
+}
