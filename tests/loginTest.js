@@ -21,8 +21,9 @@ describe("Google Test", function () {
 
     console.log(title);
 
-    assert(title.includes("Google"));
+    assert(title.includes("Facebook"));
   });
+  
 
   after(async function () {
     if (driver) {
