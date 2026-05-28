@@ -21,7 +21,7 @@ describe("Google Test", function () {
 
     console.log(title);
 
-    assert(title.includes("Facebook"));
+    assert(title.includes("Google"));
   });
   
 
